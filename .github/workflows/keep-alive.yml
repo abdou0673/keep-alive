@@ -15,4 +15,4 @@ jobs:
       - run: npm install
       - run: node index.js
         env:
-          APPWRITE_API_KEY: ${{ secrets.APPWRITE_API_KEY }}
+          APPWRITE_API_KEY: ${{ standard_32b315d129a806af6e7aed936a555caa5ba645fcedea8e5490ffc374f7ac003c0a302e1ac11eb7ab97795b305342a08ab1c2c36451af35509d6f901780c9d5aa37e8ea7df72996bd7c04a1c0c2d885730f8beb7ab867824065f3c03f5f6dc902859b33958bd34e9ff49226d382421c6d6bd4f13ef758fea81493293405c92857 }}
