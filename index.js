@@ -7,6 +7,6 @@ const client = new sdk.Client()
 
 const databases = new sdk.Databases(client);
 
-databases.listDocuments("shop_db", "hero_image", [sdk.Query.limit(1)])
+databases.listDocuments("shop_db", "site_config", [sdk.Query.limit(1)])
   .then(() => console.log("✅ Appwrite is awake:", new Date().toISOString()))
   .catch(err => { console.error("❌ Failed:", err.message); process.exit(1); });
